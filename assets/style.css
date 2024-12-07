@@ -1,16 +1,19 @@
-.container {
-    background-color: rgb(133, 132, 134);
-    color: black;
-    padding: 10px;
-    width: 400px;
-    height: 400px;
-    overflow-y: scroll;
+body {
+    background-color: lightgreen;
 }
 
-/* 
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
 
-overflow: hidden;
-overflow: scroll;
-overflow-y: scroll;
-overflow-x: scroll;
-*/
+.horizont {
+    object-position: center;
+}
+
+.vertical {
+    object-position: top;
+}
