@@ -1,19 +1,25 @@
 body {
-    background-color: lightgreen;
+    /* background-color: brown; */
+    margin: 0;
+    overflow-x: hidden;
 }
 
-img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 50%;
-    
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./20230109080744_Les_v_tumane_8454-M.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(125, 102, 207, 0.26);
+    background-blend-mode: darken; */
 }
 
-.horizont {
-    object-position: center;
-}
 
-.vertical {
-    object-position: top;
-}
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 144, 255, 0.291);
+}  */
